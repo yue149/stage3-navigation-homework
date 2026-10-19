@@ -1,0 +1,34 @@
+{
+  "base_map": "map.json",
+  "description": "按数组顺序应用更新，障碍累积；每次从 current 重新规划，目标保持不变。",
+  "updates": [
+    {
+      "id": 0,
+      "current": [
+        3,
+        3
+      ],
+      "add_obstacles": [
+        [
+          5,
+          4
+        ]
+      ],
+      "note": "上方通道被新障碍挡住。"
+    },
+    {
+      "id": 1,
+      "current": [
+        3,
+        3
+      ],
+      "add_obstacles": [
+        [
+          5,
+          8
+        ]
+      ],
+      "note": "下方通道也被挡住，机器人仍在同一位置。"
+    }
+  ]
+}
